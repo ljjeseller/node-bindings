@@ -57,6 +57,7 @@ var fs = require('fs'),
       ['module_root', 'lib', 'binding', 'nodePreGyp', 'bindings'],
       // quasar addon location 2023-7-7
       ['module_root', 'public', 'bindings'],
+      ['module_root', 'bindings'],
     ]
   };
 
