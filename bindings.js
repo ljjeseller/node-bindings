@@ -54,7 +54,9 @@ var fs = require('fs'),
       ['module_root', 'addon-build', 'debug', 'install-root', 'bindings'],
       ['module_root', 'addon-build', 'default', 'install-root', 'bindings'],
       // node-pre-gyp path ./lib/binding/{node_abi}-{platform}-{arch}
-      ['module_root', 'lib', 'binding', 'nodePreGyp', 'bindings']
+      ['module_root', 'lib', 'binding', 'nodePreGyp', 'bindings'],
+      // quasar addon location 2023-7-7
+      ['module_root', 'public', 'bindings'],
     ]
   };
 
